@@ -6,8 +6,6 @@ License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 */
 
-
-
 /*--------------------------------------------------------------
 selector {
 	layout(position)
@@ -24,7 +22,6 @@ selector {
 :root {
   --color-variable: #ffffff;
 }
-
 
 ----------------------------------------------------------------
 >>> TABLE OF CONTENTS:
@@ -43,55 +40,97 @@ selector {
 
 --------------------------------------------------------------*/
 
-
-
 /*--------------------------------------------------------------
 # Universal
 --------------------------------------------------------------*/
 html * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0; /* Remove margin from the body */
+}
+
 /*--------------------------------------------------------------
 # General Elements
 --------------------------------------------------------------*/
 
-
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
+nav ul {
+    list-style-type: square; /* Change bullet to a square */
+}
 
+nav ul li {
+    margin: 10px 0; /* Add space between list items */
+}
+
+nav a {
+    text-decoration: none;
+    color: #000; /* Default link color */
+}
+
+nav a:active {
+    color: #ff6347; /* Change color for active links */
+}
+
+nav a:hover {
+    color: #008080; /* Change color when hovering over links */
+}
+
+nav a:visited {
+    color: #800080; /* Change color for visited links */
+}
 
 /*--------------------------------------------------------------
 # Header Area
 --------------------------------------------------------------*/
-
+header {
+    background-color: #f0f0f0; /* Set a different background color for header */
+    padding: 20px; /* Add padding to the header */
+}
 
 /*--------------------------------------------------------------
 # Content Area
 --------------------------------------------------------------*/
+main {
+    width: calc(70% - 1px); /* Set width using calc for 70% - 1px */
+    float: left; /* Align the main content to the left */
+    padding: 1rem; /* Add padding */
+    border-right: 1px solid #000; /* Add 1px border on the right side */
+}
 
+/*--------------------------------------------------------------
+# Aside Elements
+--------------------------------------------------------------*/
+aside {
+    width: 30%; /* Set width of the aside */
+    float: right; /* Align the aside element to the right */
+}
 
 /*--------------------------------------------------------------
 # Footer Area
 --------------------------------------------------------------*/
-
+footer {
+    background-color: #f0f0f0; /* Set the same background color as the header */
+    text-align: center; /* Center the text */
+    clear: both; /* Clear the float elements */
+    padding: 10px 0; /* Add some padding to the footer */
+}
 
 /*--------------------------------------------------------------
 # Reusable Classes
 --------------------------------------------------------------*/
 
-
 /*--------------------------------------------------------------
 # Other
 --------------------------------------------------------------*/
-
 
 /*--------------------------------------------------------------
 # Templates
 --------------------------------------------------------------*/
 
-
 /*--------------------------------------------------------------
 # Media Queries
 --------------------------------------------------------------*/
-

@@ -71,16 +71,16 @@ nav a {
     color: #000; /* Default link color */
 }
 
+nav a:visited {
+    color: #800080; /* Change color for visited links */
+}
+
 nav a:active {
     color: #ff6347; /* Change color for active links */
 }
 
 nav a:hover {
     color: #008080; /* Change color when hovering over links */
-}
-
-nav a:visited {
-    color: #800080; /* Change color for visited links */
 }
 
 /*--------------------------------------------------------------

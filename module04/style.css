@@ -106,7 +106,7 @@ main {
 # Aside Elements
 --------------------------------------------------------------*/
 aside {
-    width: 30%; /* Set width of the aside */
+    width: (30% - 1px); /* Set width of the aside */
     float: right; /* Align the aside element to the right */
 }
 

@@ -59,7 +59,8 @@ body {
 # Navigation
 --------------------------------------------------------------*/
 nav ul {
-    list-style-type: square; /* Change bullet to a square */
+    list-style-type: square;
+	color: #FF0000 /* Change bullet to a square */
 }
 
 nav ul li {

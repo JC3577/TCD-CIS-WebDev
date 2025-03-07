@@ -1,0 +1,38 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the body element */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for centering content */
+.container {
+    text-align: center;
+}
+
+/* Style for the figure and caption */
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Style for images inside the picture element */
+picture img {
+    max-width: 100%;
+    height: auto;
+}

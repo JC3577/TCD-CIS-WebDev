@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Responsive Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Main container for the figure and caption -->
+    <div class="container">
+        <figure>
+      
+            <picture>
+       
+                <source srcset="lunarcleats-small.png" type="image/webp" media="(max-width: 600px)">
+     
+                <source srcset="lunarcleats-small.jpg" type="image/jpeg" media="(max-width: 600px)">
+                
+     
+                <source srcset="lunarcleats-large.png" type="image/webp" media="(min-width: 601px)">
+   
+                <source srcset="lunarcleats-large.jpg" type="image/jpeg" media="(min-width: 601px)">
+                
+                
+                <img src="lunarcleats.png.avif" alt="New Pink Lunar Cleats">
+            </picture>
+            
+  
+            <figcaption>New Pink Lunar Cleats</figcaption>
+        </figure>
+    </div>
+
+</body>
+</html>
 
